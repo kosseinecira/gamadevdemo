@@ -11,9 +11,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(body: Center(
-        child: Text("Hello Flutter!..."),
-      ),)
-    );
-}
+        home: Scaffold(
+            body: Center(
+                child: Column(
+      //moving based on Y axis since it's a Column.
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        // styled TextButton Widget
+        TextButton(
+          style: ButtonStyle(
+              foregroundColor: MaterialStatePropertyAll(Colors.white),
+              backgroundColor: MaterialStatePropertyAll(Colors.blue)),
+          onPressed: null,
+          child: Text("Click Me"),
+        ),
+        // Text Widget for a message...
+        Text("The message should appear here...")
+      ],
+    ))));
+  }
 }
