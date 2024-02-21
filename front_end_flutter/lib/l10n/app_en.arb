@@ -1,0 +1,6 @@
+{
+  "clickme": "Click Me!",
+  "@clickme": {
+    "description": "This is the text content of a button which gonna be clicked."
+  }
+}
