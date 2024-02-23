@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "back_end_ASP.Controllers.MessageController",
+    "Method": "GetAllMessages",
+    "RelativePath": "api/Message",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
