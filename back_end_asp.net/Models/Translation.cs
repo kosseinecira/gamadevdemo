@@ -9,6 +9,8 @@ namespace back_end_ASP.Models
         [Key]
         public long Id { set; get; }
         [Column("message_id")]
+        [ForeignKey("message_id")]
+        [Required]
         public long MessageId { set; get; } // Required foreign key property
         [Column("translated_content")]
         public string TranslatedContent { set; get; } = null!;

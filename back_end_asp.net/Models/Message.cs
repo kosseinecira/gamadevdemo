@@ -12,5 +12,15 @@ namespace back_end_ASP.Models
 
         public ICollection<Translation> Translations { get; set; } = null!;
 
+        public Message (long id, string content, ICollection<Translation> translations)
+        {
+            Id=id;
+            Content=content;
+            Translations=translations;
+        }
+
+        public Message()
+        {
+        }
     }
 }

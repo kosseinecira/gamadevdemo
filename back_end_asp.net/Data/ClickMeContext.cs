@@ -14,7 +14,7 @@ namespace back_end_ASP.Data
         public ClickMeContext(DbContextOptions<ClickMeContext> options)
             : base(options)
         {
-       
+
         }
 
         public DbSet<Message> Messages { get; set; } = null!;
@@ -22,7 +22,11 @@ namespace back_end_ASP.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
- 
+            modelBuilder.Entity<Message>()
+                .HasMany(e => e.Translations)
+                .WithOne(e => e.Message)
+                .HasForeignKey(e => e.MessageId)
+                .IsRequired();
         }
     }
 }
