@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:front_end_flutter/ui/MyApp.dart';
+import 'package:front_end_flutter/ui/my_app.dart';
 import 'dart:io';
 
 void main(){
