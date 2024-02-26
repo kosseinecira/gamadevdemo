@@ -110,8 +110,7 @@
               "RelativeToolTip": "Data\\ClickMeContext.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwBgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:32:15.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T14:32:15.819Z"
             },
             {
               "$type": "Document",
@@ -121,7 +120,7 @@
               "RelativeDocumentMoniker": "DAO\\MessageDAO\\MessageDAOImpl.cs",
               "ToolTip": "C:\\Users\\kosse\\Desktop\\ClickMe\\back_end_asp.net\\DAO\\MessageDAO\\MessageDAOImpl.cs",
               "RelativeToolTip": "DAO\\MessageDAO\\MessageDAOImpl.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAswDUAAAAhAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAswC0AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T14:03:18.293Z",
               "EditorCaption": ""
@@ -136,8 +135,7 @@
               "RelativeToolTip": "DAO\\MessageDAO\\IMessageDAO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:03:05.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T14:03:05.595Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Controllers\\MessageController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAswA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T14:00:19.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T14:00:19.604Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "Models\\Translation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T13:59:50.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T13:59:50.272Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "Models\\Message.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T13:59:46.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T13:59:46.325Z"
             }
           ]
         }

@@ -1,0 +1,1 @@
+var supportedLanguages = ['ar','en','es'];
