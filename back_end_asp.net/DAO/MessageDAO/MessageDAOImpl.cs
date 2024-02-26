@@ -42,13 +42,15 @@ namespace back_end_ASP.DAO.MessageDAO
 
         public async Task <IEnumerable> GetByLanguage(long id, string lanugage)
         {
-            var result = await _context.Messages.Where(m=> m.Id == id).Join(
+            var result = await _context.Messages.Where(m => m.Id == id).Join(
                  _context.Translations.Where(t => t.Language == lanugage)
                 , message => message.Id //primary key of the first table
                 , translation => translation.MessageId // the foreign key of the second table
                 , (message, translation) => new
-                {
-                    translated_message = translation.TranslatedContent
+                { id = message.Id,
+                messageId = translation.MessageId,
+                language = translation.Language,
+                    translatedContent = translation.TranslatedContent
                 }).ToListAsync();
             return result;
         }
