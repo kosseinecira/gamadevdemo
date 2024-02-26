@@ -26,6 +26,7 @@ void fetchAllMessages() async {
   print(messageList.messages[1].translations[0].translatedContent);
   print("finished............fetchAllmessages");
 }
+
 // since the default is en , then there is no need for language parameter.
 //this method will only be called when the language is not supported.
 Future<Message> fetchByLanguageDefault(int id) async {
@@ -38,11 +39,16 @@ Future<Message> fetchByLanguageDefault(int id) async {
     'Content-Type': 'application/json',
     'Accept': '*/*'
   });
-  final messageMap = json.decode(httpPackageResponse.body);
-  // final httpPackageInfo = await http.read(httpPackageUrl);
-  final messageObj = Message.fromJson(messageMap);
-  return messageObj;
+  if (httpPackageResponse.statusCode == 200) {
+    final messageMap = json.decode(httpPackageResponse.body);
+    // final httpPackageInfo = await http.read(httpPackageUrl);
+    final messageObj = Message.fromJson(messageMap);
+    return messageObj;
+  } else {
+    return Message(id, "message not found!", []);
+  }
 }
+
 // here we do need language parameter.
 // this function will only be called if the language is supported.
 Future<Translation> fetchByLanguage(int id, String language) async {
@@ -56,13 +62,15 @@ Future<Translation> fetchByLanguage(int id, String language) async {
     'Content-Type': 'application/json',
     'Accept': '*/*'
   });
-  print(subendpoint);
   final translationMap =
       json.decode(httpPackageResponse.body); //return List<dynamic>
   // final httpPackageInfo = await http.read(httpPackageUrl);
-  print("response [");
-  print(httpPackageResponse.body);
-  final translationObj = TranslationList.fromJson(translationMap);
-  translation = translationObj.translations[0];
-  return translation;
+  print(httpPackageResponse.statusCode);
+  if (httpPackageResponse.statusCode == 200) {
+    final translationObj = TranslationList.fromJson(translationMap);
+    translation = translationObj.translations[0];
+    return translation;
+  } else {
+    return Translation(0, 0, "", "message translation not found!");
+  }
 }

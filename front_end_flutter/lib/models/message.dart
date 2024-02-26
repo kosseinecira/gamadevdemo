@@ -5,7 +5,7 @@ class Message {
   final int id;
   final String content;
   final List<Translation> translations;
-
+ 
   Message(this.id, this.content, this.translations);
 
   factory Message.fromJson(Map<String, dynamic> json) {

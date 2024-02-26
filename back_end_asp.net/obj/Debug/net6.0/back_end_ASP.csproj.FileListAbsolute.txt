@@ -1,0 +1,16 @@
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\back_end_ASP.exe
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\back_end_ASP.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\kosse\Desktop\ClickMe\back_end_asp.net\bin\Debug\net6.0\System.Text.Json.dll
